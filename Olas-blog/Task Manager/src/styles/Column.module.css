@@ -1,0 +1,50 @@
+.column {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.taskCard {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.taskCard {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteBtn {
+  background: transparent;
+  border: none;
+  color: #c00;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  color: #f00;
+}
+
